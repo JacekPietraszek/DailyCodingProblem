@@ -28,8 +28,8 @@ public class DailyCodingProblem3 {
 
 
         for (int y = 0; y < numbers.size(); y++) {
-            if (numbers2.get(y) != y+1) {
-                System.out.println("Brakująca liczba to: " + (y+1));
+            if (numbers2.get(y) != y + 1) {
+                System.out.println("Pierwsza w kolejności brakująca liczba to: " + (y + 1));
                 break;
             }
         }
